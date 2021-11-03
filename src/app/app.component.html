@@ -2,7 +2,9 @@
   li{
     margin-right: 20px;
   }
-  
+  .active{
+     
+  }
  
 
 
@@ -14,13 +16,13 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 600px;">
     <ul class="navbar-nav">
-      <li class="nav-item abc" [routerLinkActive]="['active']">
-        <a class="nav-link "  href="#" style="color: #E26246;" [routerLink]="['']" > <span style="color: white;"> How it works</span></a>
+      <li class="nav-item abc"  routerLinkActive="active">
+        <a class="nav-link "  href="#" style="color: #E26246;" [routerLink]="['home']" > <span style="color: white;"> How it works</span></a>
       </li>
-      <li class="nav-item abc" [routerLinkActive]="['active']">
+      <li class="nav-item abc"   routerLinkActive="active">
         <a class="nav-link" href="#"  style="color: #E26246;" [routerLink]="['industries']"> <span style="color: white;">Industries</span> </a>
       </li>
-      <li class="nav-item abc" [routerLinkActive]="['active']">
+      <li class="nav-item abc"   routerLinkActive="active">
         <a class="nav-link" href="#"  style="color: #E26246; " [routerLink]="['test']"><span style="color: white;">Contact us</span></a>
       </li>
       <button class="btn btn" style="background: linear-gradient(#E96443, #904965); border-radius: 8px;

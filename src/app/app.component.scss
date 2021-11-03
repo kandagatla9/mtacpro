@@ -32,7 +32,10 @@
 border-bottom: 2px solid;
 
 }
-a:active {
+
+}
+
+.active {
   border-bottom: 2px solid;
-}
-}
+  border-color: #E26246;
+  }
