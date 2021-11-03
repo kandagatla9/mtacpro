@@ -1,0 +1,336 @@
+.coverPageImg{
+    height: 739.34px;
+}
+.coverPageTitleDiv{
+position: absolute;
+top: 228px;
+left: 904px;
+}
+.coverPageTitle{
+    width: 323px;
+    height: 175px; font-size: 39px;font-weight: bold; line-height: 1.2;color: white;
+}
+.coverPageParaDiv{
+position: absolute; top: 383px; left: 805px;width: 422px; height: 61px;
+}
+.coverPagePara{
+ color: white;text-align: right;
+}
+.coverPageButtonDiv{
+    position: absolute;
+    top: 450px;
+    left: 1090px;
+}
+.coverPageButton{
+    color: white; border-color: #E96443;
+}
+.row1Div{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.row1Col1Para1{
+    font-size: 39px; font-weight: bold;color: #4A3E84; margin-left: 139px; margin-top: 30px;
+}
+.row1Col1Para2{
+    font-size: 14px;color: #333333;margin-left: 139px; width: 460px;
+}
+.row1Col1Para3{
+    font-size: 14px;color: #333333;margin-left: 139px;width: 460px;
+}
+.row1Col2Img1{
+    width: 183px;height: 183px;
+}
+.row1Col2Img2{
+    position: absolute; left: 793px; top: 904px;width: 183px;height: 183px;
+}
+.row1Col2Img3{
+    position: absolute; left: 900px; top: 816px;width: 183px;height: 183px;
+}
+.row1Col2Img4{
+    position: absolute; left: 964px; top: 934px;width: 183px;height: 183px;
+}
+.design3{
+    position: absolute;
+}
+.design11{
+    position: absolute; top: 778.25px; left: 445px;
+}
+.design15{
+    position: absolute; top: 771.84px; left: 807.12px;
+}
+.design16{
+    position: absolute; top: 884.36px; left: 1201px;
+}
+.design14{
+    position: absolute; top: 1086px; left: 71px;
+}
+.row2Div1{
+     
+}
+.row2Div{
+    padding: 50px;
+}
+.row2Col1Img{
+    margin-left: 100px;
+}
+.row2Col2Para1{
+    font-size: 39px;font-weight: bold; color: #A51581; text-align: center; margin-top: 30px;
+}
+.row2Col2Para2{
+    line-height: 1.9; width: 536px;
+}
+.row2Col2Li{
+    line-height: 1.9; width: 506px;
+}
+.row3Div1{
+    margin-top: -6px; margin-left: -9px;
+}
+.row3Div2{
+    padding: 50px;
+}
+.row3Col1Para1{
+    font-size: 39px; color: #FFB43B;font-weight: bold; text-align: center; margin-top: 50px;
+}
+.row3Col1Para2{
+    color: white; width: 500px; margin-left: 70px; line-height: 1.9;
+}
+.row3Col1Li{
+    color: white; width: 480px; margin-left: 70px; line-height: 1.9;
+}
+.row3Col2Img{
+        
+}
+.row4Div1{
+    margin-top: -6px; margin-left: -9px;
+}
+.row4Div2{
+    padding: 20px;
+}
+.row4Col1Img{
+    margin-left: 50px;
+}
+.row4Col2Para1{
+    font-size: 39px; color: #FFB43B;font-weight: bold; margin-top: 80px;
+}
+.row4Col2Para2{
+    width: 500px; color: white; line-height: 1.9;
+}
+.row4Col2Li{
+    width: 450px; color: white; line-height: 1.9;
+}
+.row5Div1{
+    margin-top: -6px; margin-left: -9px;
+}
+.row5Div2{
+    padding: 50px;
+}
+.row5Col1Para1{
+    font-size: 39px; color: #A51581;font-weight: bold; text-align: center; margin-top: 50px;
+}
+.row5Col1Para2{
+    color: white; width: 500px; margin-left: 70px; line-height: 1.9;color: black;
+}
+.row5Col1Li{
+    color: white; width: 480px; margin-left: 70px; line-height: 1.9; color: black;
+}
+.row5Col2Img{
+        
+}
+.row6Div1{
+    margin-top: -6px; margin-left: -9px;
+}
+.row6Div2{
+    padding: 20px;
+}
+.row6Col1Img{
+    margin-left: 50px; width: 80%;
+}
+.row6Col2RowDiv{
+    margin-top: 60px;
+}
+.row6Col2Para1{
+    width: 102px; font-size: 24px; font-weight: normal; text-align: right;color: #FFB43B; margin-top: -15px;
+}
+.row6Col2Para2{
+    font-size:77px; color: #FFB43B;
+}
+.row6Col2Para3{
+    width: 500px; color: white; line-height: 1.9;
+}
+.row6Col2ButtonDiv{
+    margin-left: 30%;
+}
+.row6Col2Buttton{
+    background: linear-gradient(#E96443, #904965); color: white;
+}
+
+@media screen and (min-width:320px) and (max-width:479px){
+    .coverPageImg{
+        height: auto; width: 100%;
+    }
+    .coverPageTitleDiv{
+    position: absolute;
+    top: 28px;
+    left: 4px;
+    }
+    .coverPageTitle{
+        width: 93px;
+        height: 175px; font-size: 12px;font-weight: bold; line-height: 1.2;color: white;
+    }
+    .coverPageParaDiv{
+    position: absolute; top: 73px; left: 175px;width: 132px; height: 61px;
+    }
+    .coverPagePara{
+     color: white;text-align: right; font-size: 7px; line-height: 1.2;
+    }
+    .coverPageButtonDiv{
+        position: absolute;
+        top: 110px;
+        left: 240px;
+    }
+    .coverPageButton{
+        color: white; border-color: #E96443; width: 60px;height: 17px; font-size: 7px;
+    }
+    .row1Div{
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    .row1Col1Para1{
+        font-size: 29px; font-weight: bold;color: #4A3E84; margin-left: 9px; margin-top: 30px;
+    }
+    .row1Col1Para2{
+        font-size: 14px;color: #333333;margin-left: 9px; width: 300px;
+    }
+    .row1Col1Para3{
+        font-size: 14px;color: #333333;margin-left: 9px;width: 300px;
+    }
+    .row1Col2Img1{
+        width: 133px;height: 133px;
+    }
+    .row1Col2Img2{
+        position: absolute; left: 3px; top: 804px;width: 133px;height: 133px;
+    }
+    .row1Col2Img3{
+        position: absolute; left: 170px; top: 806px;width: 133px;height: 133px;
+    }
+    .row1Col2Img4{
+        position: absolute; left: 170px; top: 629px;width: 133px;height: 133px;
+    }
+    .design3{
+        position: absolute;
+    }
+    .design11{
+        position: absolute; top: 298.25px; left:245px;
+    }
+    .design15{
+        position: absolute; top: 381.84px; left: 247.12px;
+    }
+    .design16{
+        position: absolute; top: 184.36px; left: 281px;
+    }
+    .design14{
+        position: absolute; top: 196px; left: 271px;
+    }
+    .row2Div1{
+        margin-top: 190px;
+    }
+    .row2Div{
+        padding: 50px;
+    }
+    .row2Col1Img{
+        margin-left: 0px; width: 280px; height: 280px;
+    }
+    .row2Col2Para1{
+        font-size: 29px;font-weight: bold; color: #A51581; text-align: center; margin-top: 30px;
+    }
+    .row2Col2Para2{
+        line-height: 1.9; width: 226px;
+    }
+    .row2Col2Li{
+        line-height: 1.9; width: 229px;
+    }
+    .row3Div1{
+        margin-top: -6px; margin-left: -9px;
+    }
+    .row3Div2{
+        padding: 50px;
+    }
+    .row3Col1Para1{
+        font-size: 29px; color: #FFB43B;font-weight: bold; text-align: center; margin-top: 30px;
+    }
+    .row3Col1Para2{
+        color: white; width: 230px; margin-left: 10px; line-height: 1.9;
+    }
+    .row3Col1Li{
+        color: white; width: 220px; margin-left: 0px; line-height: 1.9;
+    }
+    .row3Col2Img{
+        width: 250px;
+    }
+    .row4Div1{
+        margin-top: -6px; margin-left: -9px;
+    }
+    .row4Div2{
+        padding: 10px;
+    }
+    .row4Col1Img{
+        margin-left: 10px; width: 280px;
+    }
+    .row4Col2Para1{
+        font-size: 20px; color: #FFB43B;font-weight: bold; margin-top: 0px; text-align: center;
+    }
+    .row4Col2Para2{
+        width: 320px; color: white; line-height: 1.7; font-size: 11px;
+    }
+    .row4Col2Li{
+        width: 290px; color: white; line-height: 1.7; font-size: 11px;
+    }
+    .row5Div1{
+        margin-top: -6px; margin-left: -9px;
+    }
+    .row5Div2{
+        padding: 50px;
+    }
+    .row5Col1Para1{
+        font-size: 29px; color: #A51581;font-weight: bold; text-align: center; margin-top: 30px;
+    }
+    .row5Col1Para2{
+        color: white; width: 230px; margin-left: 10px; line-height: 1.9; color: black;
+    }
+    .row5Col1Li{
+        color: white; width: 220px; margin-left: 0px; line-height: 1.9; color: black;
+    }
+    .row5Col2Img{
+        width: 250px;
+    }
+    .row6Div1{
+        margin-top: -6px; margin-left: -9px;
+    }
+    .row6Div2{
+        padding: 20px;
+    }
+    .row6Col1Img{
+        margin-left: 20px; width: 80%;
+    }
+    .row6Col2RowDiv{
+        margin-top: 30px;
+    }
+    .row6Col2Para1{
+        width: 52px; font-size: 14px; font-weight: normal; text-align: right;color: #FFB43B; margin-top: -15px;
+    }
+    .row6Col2Para2{
+        font-size:47px; color: #FFB43B;
+    }
+    .row6Col2Para3{
+        width: 260px; color: white; line-height: 1.2; font-size: 9px;
+    }
+    .row6Col2ButtonDiv{
+        margin-left: 30%;
+    }
+    .row6Col2Buttton{
+        background: linear-gradient(#E96443, #904965); color: white;
+    }
+    
+    
+    
+}

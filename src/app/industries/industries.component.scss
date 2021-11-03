@@ -1,0 +1,88 @@
+.design01{
+  position: absolute; top: 95%;
+}
+.design01Img{
+  width: 126px; height: 290px;
+}
+.design02{
+  position: absolute; right: 0; top: 157%;
+}
+.design02Img{
+  width: 110px; height: 170px;
+}
+.socialIcons{
+  width: 53px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
+  border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right: 0; top: 40%;
+}
+.industriesImg{
+  width: 100%;height: auto;
+}
+.lappyImg{
+  width: auto;height: auto; position: absolute; top: 20%; left: 45%;
+}
+.industriesHeader{
+  position: absolute; top: 215px; left: 139px;
+}
+.industriesHeaderPara1{
+  color: white; font-size: 39px;
+}
+.industriesHeaderPara2{
+  color: white; width: 472px ; font-size: 14px; font-family: sofia Pro, Regular;
+}
+.industriesMain{
+  font-size: 39px; color: #FC0E40; 
+}
+.industriesMainDiv{
+  margin-left: 11%; width: 80%;
+}
+.industriesMainDivPara{
+  font-family: Sofia Pro, Regular; font-size: 14px; color: #333333;
+}
+.carouselDiv{
+  margin-left: 10%; width: 80%; height: 540px;
+}
+@media screen and (min-width:320px) and (max-width:479px) {
+  .design01{
+    position: absolute; top: 22%; 
+  }
+  .design01Img{
+    width: 50px;height: 80px;
+  }
+  .design02{
+    position: absolute; right: 0; top: 87%;
+  }
+  .design02Img{
+    width: 30px; height: 30px;
+  }
+  .industriesImg{
+
+  }
+  .lappyImg{
+    width: 20%;height: 20%;  top: 5%; left: 55%;
+  }
+  .industriesHeader{
+     top: 21px; left: 39px;
+  }
+  .industriesHeaderPara1{
+    color: white; font-size: 9px;
+  }
+  .industriesHeaderPara2{
+    color: white; width: 102px ; font-size: 6px; font-family: sofia Pro, Regular; line-height: 1.6;
+  }
+  .industriesMain{
+    font-size: 29px; color: #FC0E40; 
+  }
+  .industriesMainDiv{
+    margin-left: 11%; width: 80%;
+  }
+  .industriesMainDivPara{
+    font-family: Sofia Pro, Regular; font-size: 9px; color: #333333;
+  }
+  .carouselDiv{
+    margin-left: 10%; width: 80%; height: 120px;
+  }
+  .socialIcons{
+    width: 33px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
+    border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right: 0; top: 40%;
+  }
+}

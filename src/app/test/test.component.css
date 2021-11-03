@@ -1,0 +1,312 @@
+  
+  
+.design12{
+    position: absolute; top: 88%; left: 38%;
+}
+.design14{
+    position: absolute; top: 90%; left: 72%;
+}
+.design16{
+    position: absolute; top: 100%; left: 85%;
+}
+.design13{
+    position: absolute; top: 135%; left: 87%;
+}
+.design11{
+    position: absolute; top: 140%; left: 53%;
+}
+.design01{
+    position: absolute; top: 75%;
+}
+.design01Img{
+    width: 126px; height: 290px;
+}
+.design4{
+    position: absolute; right: 10%; top: 58%;
+}
+.design03{
+    position: absolute; top: 170%;
+}
+.design05{
+    position: absolute; right: 0px; top: 165%;
+}
+.socialIcons{
+    width: 53px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
+border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right: 0; top: 40%;
+}
+.imgTop{
+    width: 100%; height: auto;
+}
+.contactUs{
+    position: absolute; top: 28%; left: 45%;
+  }
+  .contactP{
+    font-size: 39px;
+}
+.contactUsPara{
+    position: absolute; top: 38%; left: 35%; width: 37%;
+  }
+  .aboutUsDiv{
+    padding: 50px;
+  }
+  .aboutUsPara{
+    color: #FC0E40; font-size: 39px; font-weight: bold;
+  }
+  .rowCol1{
+    width: 536px; margin-left: 10%; margin-top: 4%; text-align: center;
+  }
+  .rowCol1Para1{
+    margin-bottom: 30px; line-height: 1.8; font-family: sopfia, Regular;
+  }
+  .rowCol1Para2{
+    color: #4A3E84; font-size: 28px; font-weight: bold; margin-bottom: 30px;
+  }
+  .rowCol1Para3{
+    margin-bottom: 30px; font-family: sopfia, Regular; line-height: 1.8;
+  }
+  .rowCol2{
+    padding-right: 10%;padding-left: 3%;
+  }
+  .rowCol2Img{
+
+  }
+  .row2Col1Div3{
+    width: 536px; margin-left: 141px; margin-top: 77px
+  }
+  .row2Col1Para1{
+    width: 100%;font-size: 39px; color: #FC0E40;letter-spacing: 1.17px; font-weight: bold; 
+    font-family: sans-serif;
+}
+.row2Col1Para2{
+    font-size: 14px; color: white;
+  }
+  .row2Col1Img{
+
+  }
+  .row2Col2{
+    top: 195.761%;
+    width: 536px;
+    left: 10%;
+    background-color: #7e787829;
+    background: transparent; 
+    height: 623px;
+    border-radius: 10px; 
+    color: white;
+    margin-top: 80px;
+  }
+  .row2Col2Form{
+    padding: 5%; background: transparent;
+  }
+  .row2Col2FormFirstNameDiv{
+    padding-right:5% 
+  }
+  .inputBackground{
+    background: transparent; background-color: #7e787829; border-width: 0px;
+  }
+@media screen and (min-width:320px) and (max-width:479px){
+    .design12{
+        position: absolute; top: 28%; left: 28%;
+    }
+    .design14{
+        position: absolute; top: 30%; left: 72%;
+    }
+    .design16{
+        position: absolute; top: 20%; left: 85%;
+    }
+    .design13{
+        position: absolute; top: 105%; left: 87%;
+    }
+    .design11{
+        position: absolute; top: 55%; left: 3%;
+    }
+    .design01{
+        position: absolute; top: 25%;
+    }
+    .design01Img{
+        width: 36px; height: 90px;
+    }
+    .design4{
+        position: absolute; left: 10%; top: 102%;
+    }
+    .design4Img{
+        width: 30px;
+    }
+    .design03{
+        display: none;
+    }
+    .design05{
+        position: absolute; right: 0px; top: 165%;
+    }
+    .socialIcons{
+        width: 33px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
+    border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right: 0; top: 40%;
+    }
+    .imgTop{
+        width: 100%; height: auto;
+    }
+    .contactUs{
+        font-size: 2px;
+        top: 2%;
+        left: 5%;
+    }
+    .contactP{
+        font-size: 9px;
+    }
+    .contactUsPara{
+        line-height: 1.6;
+        font-size: 8px;
+        left: 4%;
+        width: 40%;
+        top: 5%;
+    }
+    .aboutUsDiv{
+        padding: 10px;
+      }
+      .aboutUsPara{
+        color: #FC0E40; font-size: 14px; font-weight: bold;
+      }
+      .rowCol1{
+        width: 306px; margin-top: 4%;
+      }
+      .rowCol1Para1{
+        margin-bottom: 30px; line-height: 1.4; font-family: sopfia, Regular;
+      }
+      .rowCol1Para2{
+        color: #4A3E84; font-size: 18px; font-weight: bold; margin-bottom: 30px;
+      }
+      .rowCol1Para3{
+        margin-bottom: 30px; font-family: sopfia, Regular; line-height: 1.2;
+      }
+      .rowCol2{
+        padding-right: 10%;padding-left: 3%;
+      }
+      .rowCol2Img{
+      width: 100%;
+    }
+    .row2Col1Div3{
+        width: 300px; margin-left: 14px; margin-top: 7px
+      }
+      .row2Col1Para1{
+        width: 100%;font-size: 19px; color: #FC0E40;letter-spacing: 1.17px; font-weight: bold; 
+        font-family: sans-serif;
+    }
+    .row2Col1Para2{
+        font-size: 9px; color: white;
+      }
+      .row2Col1Img{
+      width: 300px;
+      height: 300px;
+    }
+    .row2Col2{
+        width: 320px;
+        left: 0%;
+        background-color: #7e787829;
+        background: transparent; 
+        height: 623px;
+        border-radius: 10px; 
+        color: white;
+        margin-top: 20px;
+      } 
+      .row2Col2Form{
+        padding: 15%; background: transparent;
+      }
+      .row2Col2FormFirstNameDiv{
+        padding-right:5% 
+      }
+      .inputBackground{
+        background: transparent; background-color: #7e787829; border-width: 0px;
+      }
+}    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    input{
+        color: white;
+    }
+    label{
+        color: #E26246;
+    }
+    
+    
+    
+    
+    .posiAbsolute{
+      position: absolute;
+    }
+    .design6{
+      left: 69.619%; top: 37%;
+    }
+    .design7{
+      left: 61.933%; top: 75%;
+    }
+    .design8{
+      left: 27.965%; top: 24.816%
+    }
+    .design9{
+      left: 10.322%; top:40.967%
+    }
+    .design10{
+      left: 18.228%; top:55%
+    }
+    @media screen and (min-width:320px) and (max-width:700px){
+        .aboutUs{
+            width:100%
+        }
+        
+    
+    
+    
+    }
+    @media screen and (min-width:701px) and (max-width:1000px) {
+      img{
+        width: 40%;
+      }
+      .design6{
+      left: 69.619%; top: 10%;
+    }
+    .design7{
+      left: 61.933%; top: 10%;
+    }
+    .design8{
+      left: 27.965%; top: 10%
+    }
+    .design9{
+      left: 10.322%; top:10%
+    }
+    .design10{
+      left: 18.228%; top:10%
+    }
+    }
+
+    
+      
+      input[type="text"]:focus, .uneditable-input:focus {
+        border-color: red;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(223, 104, 239, 0.6);
+      }
+      label{
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+      
+      .mobilePara{
+        font-size: 14px; color: white;
+      }
+      @media screen and (min-width:320px) and (max-width:750px) {
+          
+       
+        .img100{
+        }
+        
+      
+      }
