@@ -201,7 +201,7 @@ border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; 
       height: 300px;
     }
     .row2Col2{
-        width: 320px;
+        width: 100%;
         left: 0%;
         background-color: #7e787829;
         background: transparent; 
