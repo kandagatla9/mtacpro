@@ -1,33 +1,98 @@
 <style>
+  .navNav{
+    background: transparent; position: absolute;
+  }
   li{
     margin-right: 20px;
   }
   .active{
      
   }
+  .navImg{
+    width: 118px; height: 61px; margin-left: 139px;
+  }
+  .navDiv{
+    margin-left: 600px;
+  }
+  .navButton{
+      background: linear-gradient(#E96443, #904965); border-radius: 8px;
+      box-shadow: 0px 1px 3px #00000029;color:white;
+    }
+    .navLi{
+      
+    }
+    .socialIcons{
+    width: 53px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
+border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right: 0; top: 40%;
+}
+.socialIconsImg1{
+  width: 33px; height: 33px; margin-top: 25px;
+}
+.socialIconsImg2{
+  width: 33px; height: 33px;
+}
+  @media screen and (min-width:320px) and (max-width:479px){
+    .navNav{
+      background-color:#904965;width: 320px;position: relative;
+  }
+    .navImg{
+      width: 15%;height: 15%;  margin-left: 0px;
+    }
+    .navDiv{
+      margin-left: 20px;
+    }
+    .navButton{
+      background: linear-gradient(#E96443, #904965); border-radius: 8px;
+      box-shadow: 0px 1px 3px #00000029;color:white;width: 60px;
+    }
+    .navLi{
+      width: 90px;
+    }
+    .socialIcons{
+        width: 33px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
+    border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right:0;
+    }
+    .socialIconsImg1{
+  width: 33px; height: 33px; margin-top: 25px;
+}
+.socialIconsImg2{
+  width: 33px; height: 33px;
+}
+  }
  
 
 
 </style>
-<nav class="navbar navbar-expand-lg navbar-light bg" style="background: transparent; position: absolute;">
-  <a class="navbar-brand" href="#"><img src="../assets/MTac Pro logo.png" alt="" style="width: 118px; height: 61px; margin-left: 139px;"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light bg navNav">
+  <a class="navbar-brand" href="#"><img class="navImg" src="../assets/MTac Pro logo.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" 
+  aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 600px;">
+  <div class="collapse navbar-collapse navDiv" id="navbarNav" >
     <ul class="navbar-nav">
-      <li class="nav-item abc"  routerLinkActive="active">
-        <a class="nav-link "  href="#" style="color: #E26246;" [routerLink]="['home']" > <span style="color: white;"> How it works</span></a>
+      <li class="nav-item abc navLi"  routerLinkActive="active">
+        <a class="nav-link "  href="#" style="color: #E26246;" [routerLink]="['home']" > 
+          <span style="color: white;"> How it works</span></a>
       </li>
-      <li class="nav-item abc"   routerLinkActive="active">
-        <a class="nav-link" href="#"  style="color: #E26246;" [routerLink]="['industries']"> <span style="color: white;">Industries</span> </a>
+      <li class="nav-item abc navLi"   routerLinkActive="active">
+        <a class="nav-link" href="#"  style="color: #E26246;" [routerLink]="['industries']"> 
+          <span style="color: white;">Industries</span> </a>
       </li>
-      <li class="nav-item abc"   routerLinkActive="active">
-        <a class="nav-link" href="#"  style="color: #E26246; " [routerLink]="['test']"><span style="color: white;">Contact us</span></a>
+      <li class="nav-item abc navLi"   routerLinkActive="active">
+        <a class="nav-link" href="#"  style="color: #E26246; " [routerLink]="['test']">
+          <span style="color: white;">Contact us</span></a>
       </li>
-      <button class="btn btn" style="background: linear-gradient(#E96443, #904965); border-radius: 8px;
-      box-shadow: 0px 1px 3px #00000029;color:white;">Login</button>
+      <button class="btn btn navButton">Login</button>
     </ul>
   </div>
 </nav>
 <router-outlet></router-outlet>
+<!--
+<div class="text-center socialIcons">
+  <a href=""><img class="socialIconsImg1" src="../assets/socials icons/facebook - white.png" alt=""></a><br>
+  <a href=""><img class="socialIconsImg2" src="../assets/socials icons/instagram - white.png" alt=""></a><br>
+  <a href=""><img class="socialIconsImg2" src="../assets/socials icons/twitter - white.png" alt=""></a><br>
+  <a href=""><img class="socialIconsImg2" src="../assets/socials icons/linkedin - white.png" alt=""></a>
+  </div>
+  -->

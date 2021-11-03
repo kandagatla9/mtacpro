@@ -120,7 +120,7 @@ border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; 
         position: absolute; top: 55%; left: 3%;
     }
     .design01{
-        position: absolute; top: 25%;
+        display: none;
     }
     .design01Img{
         width: 36px; height: 90px;
@@ -145,19 +145,22 @@ border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; 
         width: 100%; height: auto;
     }
     .contactUs{
+      position: relative;
         font-size: 2px;
-        top: 2%;
+        top: -22%;
         left: 5%;
     }
     .contactP{
         font-size: 9px;
     }
     .contactUsPara{
+      
+      position: relative;
         line-height: 1.6;
         font-size: 8px;
         left: 4%;
         width: 40%;
-        top: 5%;
+        top: -25%;
     }
     .aboutUsDiv{
         padding: 10px;

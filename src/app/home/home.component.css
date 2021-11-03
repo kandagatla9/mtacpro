@@ -169,23 +169,23 @@ position: absolute; top: 383px; left: 805px;width: 422px; height: 61px;
         height: auto; width: 100%;
     }
     .coverPageTitleDiv{
-    position: absolute;
-    top: 28px;
+    position: relative;
+    top: -158px;
     left: 4px;
     }
     .coverPageTitle{
         width: 93px;
-        height: 175px; font-size: 12px;font-weight: bold; line-height: 1.2;color: white;
+        height: 75px; font-size: 12px;font-weight: bold; line-height: 1.2;color: white;
     }
     .coverPageParaDiv{
-    position: absolute; top: 73px; left: 175px;width: 132px; height: 61px;
+    position: relative; top: -243px; left: 175px;width: 132px; height: 61px;
     }
     .coverPagePara{
      color: white;text-align: right; font-size: 7px; line-height: 1.2;
     }
     .coverPageButtonDiv{
-        position: absolute;
-        top: 110px;
+        position: relative;
+        top: -250px;
         left: 240px;
     }
     .coverPageButton{
@@ -196,7 +196,7 @@ position: absolute; top: 383px; left: 805px;width: 422px; height: 61px;
         margin-bottom: 50px;
     }
     .row1Col1Para1{
-        font-size: 29px; font-weight: bold;color: #4A3E84; margin-left: 9px; margin-top: 30px;
+        font-size: 29px; font-weight: bold;color: #4A3E84; margin-left: 9px; margin-top: -150px;
     }
     .row1Col1Para2{
         font-size: 14px;color: #333333;margin-left: 9px; width: 300px;
@@ -205,19 +205,19 @@ position: absolute; top: 383px; left: 805px;width: 422px; height: 61px;
         font-size: 14px;color: #333333;margin-left: 9px;width: 300px;
     }
     .row1Col2Img1{
-        width: 133px;height: 133px;
+        width: 133px;height: 133px;position: relative;
     }
     .row1Col2Img2{
-        position: absolute; left: 3px; top: 804px;width: 133px;height: 133px;
+        position: relative; left: 3px; top: 4px;width: 133px;height: 133px;
     }
     .row1Col2Img3{
-        position: absolute; left: 170px; top: 806px;width: 133px;height: 133px;
+        position: relative; left: 133px; top: 26px;width: 133px;height: 133px;
     }
     .row1Col2Img4{
-        position: absolute; left: 170px; top: 629px;width: 133px;height: 133px;
+        position: relative; left: -123px; top: 29px;width: 133px;height: 133px;
     }
     .design3{
-        position: absolute;
+        position: absolute; margin-top: -157px;
     }
     .design11{
         position: absolute; top: 298.25px; left:245px;
@@ -232,7 +232,7 @@ position: absolute; top: 383px; left: 805px;width: 422px; height: 61px;
         position: absolute; top: 196px; left: 271px;
     }
     .row2Div1{
-        margin-top: 190px;
+        margin-top: 60px;
     }
     .row2Div{
         padding: 50px;
@@ -330,6 +330,10 @@ position: absolute; top: 383px; left: 805px;width: 422px; height: 61px;
     .row6Col2Buttton{
         background: linear-gradient(#E96443, #904965); color: white;
     }
+    .socialIcons{
+        width: 33px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
+        border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right: 0; top: 10px;
+      }
     
     
     

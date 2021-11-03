@@ -43,10 +43,10 @@
 }
 @media screen and (min-width:320px) and (max-width:479px) {
   .design01{
-    position: absolute; top: 22%; 
+    display: none;
   }
   .design01Img{
-    width: 50px;height: 80px;
+    display: none;
   }
   .design02{
     position: absolute; right: 0; top: 87%;
@@ -58,10 +58,10 @@
 
   }
   .lappyImg{
-    width: 20%;height: 20%;  top: 5%; left: 55%;
+    width: 20%;height: 20%;  top: -15%; left: 55%; position: relative;
   }
   .industriesHeader{
-     top: 21px; left: 39px;
+     top: -221px; left: 39px; position: relative;
   }
   .industriesHeaderPara1{
     color: white; font-size: 9px;
@@ -70,7 +70,7 @@
     color: white; width: 102px ; font-size: 6px; font-family: sofia Pro, Regular; line-height: 1.6;
   }
   .industriesMain{
-    font-size: 29px; color: #FC0E40; 
+    font-size: 29px; color: #FC0E40; margin-top: -120px;
   }
   .industriesMainDiv{
     margin-left: 11%; width: 80%;
