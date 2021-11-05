@@ -41,10 +41,10 @@ border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; 
     position: absolute; top: 28%; left: 45%;
   }
   .contactP{
-    font-size: 39px;
+    font-size: 39px; 
 }
 .contactUsPara{
-    position: absolute; top: 38%; left: 35%; width: 37%;
+    position: absolute; top: 38%; left: 35%; width: 37%;padding-top: 15px;
   }
   .aboutUsDiv{
     padding: 50px;
