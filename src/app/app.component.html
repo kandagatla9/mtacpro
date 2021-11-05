@@ -71,19 +71,19 @@ border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; 
   </button>
   <div class="collapse navbar-collapse navDiv" id="navbarNav" >
     <ul class="navbar-nav">
-      <li class="nav-item abc navLi"  routerLinkActive="active">
+      <li class="nav-item abc navLi" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" routerLinkActive="active">
         <a class="nav-link "  href="#" style="color: #E26246;" [routerLink]="['home']" > 
           <span style="color: white;"> How it works</span></a>
       </li>
-      <li class="nav-item abc navLi"   routerLinkActive="active">
+      <li class="nav-item abc navLi"  data-toggle="collapse" data-target="#navbarNav" aria-expanded="false"    routerLinkActive="active">
         <a class="nav-link" href="#"  style="color: #E26246;" [routerLink]="['industries']"> 
           <span style="color: white;">Industries</span> </a>
       </li>
-      <li class="nav-item abc navLi"   routerLinkActive="active">
+      <li class="nav-item abc navLi"  data-toggle="collapse" data-target="#navbarNav" aria-expanded="false"    routerLinkActive="active">
         <a class="nav-link" href="#"  style="color: #E26246; " [routerLink]="['test']">
           <span style="color: white;">Contact us</span></a>
       </li>
-      <button class="btn btn navButton">Login</button>
+      <button class="btn btn navButton"  data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" >Login</button>
     </ul>
   </div>
 </nav>

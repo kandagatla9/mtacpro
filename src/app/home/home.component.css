@@ -1,5 +1,6 @@
 .coverPageImg{
     height: 739.34px;
+    width: 100%;
 }
 .socialIcons{
     width: 53px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
@@ -7,15 +8,15 @@
   }
 .coverPageTitleDiv{
 position: absolute;
-top: 228px;
-left: 904px;
+top: 33%;
+left: 67%;
 }
 .coverPageTitle{
     width: 323px;
     height: 175px; font-size: 39px;font-weight: bold; line-height: 1.2;color: white;
 }
 .coverPageParaDiv{
-position: absolute; top: 383px; left: 805px;width: 422px; height: 61px;
+position: absolute; top: 58%; left: 60%;width: 422px; height: 61px;
 }
 .coverPagePara{
  color: white;text-align: right;
@@ -42,7 +43,7 @@ position: absolute; top: 383px; left: 805px;width: 422px; height: 61px;
     font-size: 14px;color: #333333;margin-left: 139px;width: 460px;
 }
 .row1Col2Img1{
-    width: 183px;height: 183px;
+    width: 183px;height: 183px;position: absolute; 
 }
 .row1Col2Img2{
     position: absolute; left: 793px; top: 904px;width: 183px;height: 183px;
@@ -215,10 +216,10 @@ position: absolute; top: 383px; left: 805px;width: 422px; height: 61px;
         position: relative; left: 3px; top: 4px;width: 133px;height: 133px;
     }
     .row1Col2Img3{
-        position: relative; left: 133px; top: 26px;width: 133px;height: 133px;
+        position: relative; left: -0px; top: 30px;width: 133px;height: 133px;
     }
     .row1Col2Img4{
-        position: relative; left: -123px; top: 29px;width: 133px;height: 133px;
+        position: relative; left: -0px; top: 29px;width: 133px;height: 133px;
     }
     .design3{
         position: absolute; margin-top: -157px;

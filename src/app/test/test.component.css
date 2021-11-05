@@ -65,7 +65,7 @@ border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; 
     margin-bottom: 30px; font-family: sopfia, Regular; line-height: 1.8;
   }
   .rowCol2{
-    padding-right: 10%;padding-left: 3%;
+    padding-right: 2%;padding-left: 3%;
   }
   .rowCol2Img{
 
@@ -146,21 +146,21 @@ border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; 
     }
     .contactUs{
       position: relative;
-        font-size: 2px;
-        top: -22%;
+        font-size: 12px;
+        top: -20%;
         left: 5%;
     }
     .contactP{
-        font-size: 9px;
+        font-size: 19px;
     }
     .contactUsPara{
       
       position: relative;
-        line-height: 1.6;
-        font-size: 8px;
+        line-height: 1.2;
+        font-size: 10px;
         left: 4%;
         width: 40%;
-        top: -25%;
+        top: -20%;
     }
     .aboutUsDiv{
         padding: 10px;
@@ -623,7 +623,7 @@ border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; 
     margin-bottom: 30px; font-family: sopfia, Regular; line-height: 1.8;
   }
   .rowCol2{
-    padding-right: 10%;padding-left: 3%;
+    padding-right: 2%;padding-left: 3%;
   }
   .rowCol2Img{
   
