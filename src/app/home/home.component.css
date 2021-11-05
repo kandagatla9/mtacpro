@@ -868,3 +868,180 @@ position: absolute; top: 383px; left: 805px;width: 422px; height: 61px;
     
     
 }
+/*-----*/
+/*-----*/
+@media screen and (min-width:1024px) and (max-width:1199px){
+    .coverPageImg{
+        height: auto; width: 100%;
+    }
+    .coverPageTitleDiv{
+    position: relative;
+    top: -398px;
+    left: 604px;
+    }
+    .coverPageTitle{
+        width: 93px;
+        height: 75px; font-size: 12px;font-weight: bold; line-height: 1.2;color: white;
+    }
+    .coverPageParaDiv{
+    position: relative; top: -423px; left: 595px;width: 132px; height: 61px;
+    }
+    .coverPagePara{
+     color: white;text-align: right; font-size: 9px; line-height: 1.2;
+    }
+    .coverPageButtonDiv{
+        position: relative;
+        top: -410px;
+        left: 630px;
+    }
+    .coverPageButton{
+        color: white; border-color: #E96443; width: 60px;height: 17px; font-size: 7px;
+    }
+    .row1Div{
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    .row1Col1Para1{
+        font-size: 29px; font-weight: bold;color: #4A3E84; margin-left: 9px; margin-top: -150px;
+    }
+    .row1Col1Para2{
+        font-size: 14px;color: #333333;margin-left: 9px; width: 65%;text-align: center; margin-left: 15%;
+    }
+    .row1Col1Para3{
+        font-size: 14px;color: #333333;margin-left: 9px;width: 65%; margin-left: 15%;
+    }
+    .row1Col2Img1{
+        width: 133px;height: 133px;position: relative;
+    }
+    .row1Col2Img2{
+        position: relative; left: 3px; top: 4px;width: 133px;height: 133px;
+    }
+    .row1Col2Img3{
+        position: relative; left: 143px; top: 6px;width: 133px;height: 133px;
+    }
+    .row1Col2Img4{
+        position: relative; left: -123px; top: 3px;width: 133px;height: 133px;
+    }
+    .design3{
+        position: absolute; margin-top: -157px;
+    }
+    .design11{
+        position: absolute; top: 298.25px; left:245px;
+    }
+    .design15{
+        position: absolute; top: 381.84px; left: 247.12px;
+    }
+    .design16{
+        position: absolute; top: 184.36px; left: 281px;
+    }
+    .design14{
+        position: absolute; top: 196px; left: 271px;
+    }
+    .row2Div1{
+        margin-top: 60px;
+    }
+    .row2Div{
+        padding: 50px;
+    }
+    .row2Col1Img{
+        margin-left: 30%; width: 280px; height: 280px;
+    }
+    .row2Col2Para1{
+        font-size: 29px;font-weight: bold; color: #A51581; text-align: center; margin-top: 30px;
+    }
+    .row2Col2Para2{
+        line-height: 1.9; width: 226px;margin-left: 17%; width: 75%;
+    }
+    .row2Col2Li{
+        line-height: 1.9; width: 229px; margin-left: 20%;width: 75%;
+    }
+    .row3Div1{
+        margin-top: -6px; margin-left: -9px;
+    }
+    .row3Div2{
+        padding: 50px;
+    }
+    .row3Col1Para1{
+        font-size: 29px; color: #FFB43B;font-weight: bold; text-align: center; margin-top: 20px;
+    }
+    .row3Col1Para2{
+        color: white; width: 70%;  margin-left: 17%; line-height: 1.9;
+    }
+    .row3Col1Li{
+        color: white; width: 70%;  margin-left: 20%; line-height: 1.9;
+    }
+    .row3Col2Img{
+        width: 250px;  margin-left: 25%;
+    }
+    .row4Div1{
+        margin-top: -6px; margin-left: -9px;
+    }
+    .row4Div2{
+        padding: 10px;
+    }
+    .row4Col1Img{
+        margin-left: 30%; width: 40%;
+    }
+    .row4Col2Para1{
+        font-size: 20px; color: #FFB43B;font-weight: bold; margin-top: 0px; text-align: center;
+    }
+    .row4Col2Para2{
+         color: white; line-height: 1.7; font-size: 11px; margin-left: 17%;width: 70%;
+    }
+    .row4Col2Li{
+        width: 70%; color: white; line-height: 1.7; font-size: 11px;margin-left: 20%;
+    }
+    .row5Div1{
+        margin-top: -6px; margin-left: -9px;
+    }
+    .row5Div2{
+        padding: 50px;
+    }
+    .row5Col1Para1{
+        font-size: 29px; color: #A51581;font-weight: bold; text-align: center; margin-top: 30px;
+    }
+    .row5Col1Para2{
+        color: white; width: 70%; margin-left: 17%; line-height: 1.9; color: black;margin-left: 20%;
+    }
+    .row5Col1Li{
+        color: white; width: 70%; margin-left: 20%; line-height: 1.9; color: black;
+    }
+    .row5Col2Img{
+        width: 250px;margin-left: 30%;
+    }
+    .row6Div1{
+        margin-top: -6px; margin-left: -9px;
+    }
+    .row6Div2{
+        padding: 20px;
+    }
+    .row6Col1Img{
+        margin-left: 0%; width: 60%;
+    }
+    .row6Col2RowDiv{
+        margin-top: 30px;
+    }
+    .row6Col2Para1{
+        width: 52px; font-size: 14px; font-weight: normal; text-align: right;color: #FFB43B; margin-top: -15px;margin-left: 50%;
+    }
+    .row6Col2Para2{
+        font-size:47px; color: #FFB43B;margin-left: 50%;
+    }
+    .row6Col2Para3{
+        width: 260px; color: white; line-height: 1.2; font-size: 9px;margin-left: 40%;
+    }
+    .row6Col2ButtonDiv{
+        margin-left: 45%;
+    }
+    .row6Col2Buttton{
+        background: linear-gradient(#E96443, #904965); color: white;
+    }
+    .socialIcons{
+        width: 33px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
+        border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right: 0; top: 10px;
+      }
+    
+    
+    
+}
