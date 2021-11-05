@@ -137,10 +137,10 @@ border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; 
     .design05{
         position: absolute; right: 0px; top: 165%;
     }
-    .socialIcons{
+    /*.socialIcons{
         width: 33px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
     border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right: 0; top: 40%;
-    }
+    }*/
     .imgTop{
         width: 100%; height: auto;
     }
@@ -256,10 +256,10 @@ border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; 
   .design05{
       position: absolute; right: 0px; top: 165%;
   }
-  .socialIcons{
+  /*.socialIcons{
       width: 33px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
   border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right: 0; top: 40%;
-  }
+  }*/
   .imgTop{
       width: 100%; height: auto;
   }
@@ -372,10 +372,10 @@ border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; 
 .design05{
   position: absolute; right: 0px; top: 165%;
 }
-.socialIcons{
+/*.socialIcons{
   width: 53px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
 border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right: 0; top: 40%;
-}
+}*/
 .imgTop{
   width: 100%; height: auto;
 }
@@ -480,10 +480,10 @@ width: 100%; margin-left: 20%;
 .design05{
   position: absolute; right: 0px; top: 165%;
 }
-.socialIcons{
+/*.socialIcons{
   width: 53px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
 border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right: 0; top: 40%;
-}
+}*/
 .imgTop{
   width: 100%; height: auto;
 }
@@ -588,10 +588,10 @@ border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; 
   .design05{
     position: absolute; right: 0px; top: 165%;
   }
-  .socialIcons{
+  /*.socialIcons{
     width: 53px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
   border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right: 0; top: 40%;
-  }
+  }*/
   .imgTop{
     width: 100%; height: auto;
   }
