@@ -1,6 +1,10 @@
 .coverPageImg{
     height: 739.34px;
 }
+.socialIcons{
+    width: 53px; height: 167px; background: linear-gradient(#9C006C, #00749A); 
+    border-bottom-left-radius: 27px; border-top-left-radius: 27px; position: fixed; right: 0; top: 40%;
+  }
 .coverPageTitleDiv{
 position: absolute;
 top: 228px;
