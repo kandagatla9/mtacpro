@@ -10,9 +10,25 @@
     <div>
         <img src="../../assets/home/Cover Image.png" alt="" class="coverPageImg">
     </div>
-    
-    <div class="coverPageTitleDiv text-center">
-        <p class="coverPageTitle">Manage your <span style="color: #E26246;">Office</span> from your <span style="color: #E26246;">Pocket!</span></p>
+    <style>
+        .ABCText{
+            animation-duration: 2s;
+  animation-name: slidein;
+        }
+        @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+    </style>
+    <div class="coverPageTitleDiv text-center ABCText">
+        <p class="coverPageTitle" style="text-align: right;">Manage your <span style="color: #E26246;">Office</span> from your <span style="color: #E26246;">Pocket!</span></p>
     </div>
     <div class="coverPageParaDiv">
         <p class="coverPagePara">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -76,7 +92,7 @@
     <div class="row2Div1" style="background-image: url(../../assets/home/Appointments\ -\ BG.png);">
         <div class="w3-row row2Div">
             <div class="w3-col l6">
-                <marquee behavior="slide" direction="" scrollamount="20">
+                <marquee behavior="slide" direction="" scrollamount="15">
                     <img src="../../assets/home/Appointments - image.png" alt="" class="row2Col1Img">
                 </marquee>
                 
@@ -118,7 +134,7 @@
                 </ul>
             </div>
             <div class="w3-col l6">
-                <marquee behavior="slide" direction="" scrollamount="20">
+                <marquee behavior="slide" direction="" scrollamount="10">
                     <img src="../../assets/home/Reviews - image.png" alt="" class="row3Col2Img">
                 </marquee>
                 
@@ -129,7 +145,7 @@
     <div class="row4Div1" style="background-image: url(../../assets/home/Reminers\ -\ BG.png); ">
         <div class="w3-row row4Div2">
             <div class="w3-col l6">
-                <marquee behavior="slide" direction="" scrollamount="20">
+                <marquee behavior="slide" direction="" scrollamount="5">
                     <img class="row4Col1Img" src="../../assets/home/Reminders - image.png" alt="">
                 </marquee>
                 
@@ -174,7 +190,7 @@
                 </ul>
             </div>
             <div class="w3-col l6">
-                <marquee behavior="slide" direction="" scrollamount="20">
+                <marquee behavior="slide" direction="" scrollamount="5">
                     <img src="../../assets/home/Look for - image.png" alt="" class="row5Col2Img">
                 </marquee>
                 
